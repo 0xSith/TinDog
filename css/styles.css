@@ -1,0 +1,193 @@
+
+/* Blanket styles*/
+
+body {
+  font-family: "Montserrat";
+}
+
+/* Title Section */
+
+#title {
+  background-color: #FF4C68;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 260px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features {
+  background-color: #ffffff;
+  position: relative;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 3.5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.feature-container {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-cols {
+  padding: 5%;
+}
+
+.feature-icons {
+  color: #EF8172;
+}
+
+.feature-icons:hover {
+  color: #FF4C68;
+}
+
+/* Testimonials  */
+#testimonials {
+  background-color: #EF8172;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.carousel-item {
+  padding: 5% 10%;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.testimonial-text {
+  padding-bottom: 5%;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 2.5%;
+}
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+}
+
+.press-img {
+  width: 10%;
+  margin: 3% 6%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 8%;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 5% 3%;
+}
+
+.price-btn {
+  padding: 0 3% 3%;
+}
+
+/* Call to Action */
+
+#cta{
+  text-align: center;
+  color: #ffffff;
+}
+.action-section{
+  background-color: #FF4C68;
+  padding:10%;
+}
+
+/* Footer Section */
+
+#footer{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footer-section{
+padding:10% 15% 7%;
+}
+.fa-socials{
+  padding: 10px;
+}
+
+/* Media Formatting */
+
+@media (min-width:992px) and (max-width:1200px) {
+  .title-image {
+    width: 25%;
+    height: 50%;
+    transform: rotate(0);
+    right: 20%;
+    bottom:35%;
+  }
+}
+@media (max-width:991px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+    width:60%;
+
+
+  }
+
+}
